@@ -1,0 +1,169 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type=text]{
+    width: 20%;
+    height: 30%;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 5px 0;
+    margin-left: 40%;
+    box-shadow: 0px 3px 6px -6px black ;
+    background: linear-gradient(45deg,
+#48ff00,
+#00ffd5
+);
+font-size: 30px;
+}
+
+input[type=email]{
+  width: 20%;
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px 20px;
+  margin: 5px 0;
+  margin-left: 40%;
+  box-shadow: 0px 3px 6px -6px black ;
+  background: linear-gradient(45deg,
+#48ff00,
+#00ffd5
+);
+font-size: 30px;
+}
+input[type=text1]{
+    width: 20%;
+    border-radius: 15px;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 5px 0;
+    margin-left: 40%;
+    box-shadow: 0px 3px 6px -6px black ;
+    background: linear-gradient(45deg,
+#48ff00,
+#00ffd5
+);
+font-size: 30px;
+
+}
+#add{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Verdana;
+}
+#add1{
+  font-weight: bold;
+  font-size: 25px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#phn{
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Verdana;
+}
+#num{
+  font-weight: bold;
+  font-size: 25px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#em{
+  font-weight: bold;
+  font-size: 25px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#mail{
+  font-weight: bold;
+  font-size: 25px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input[type=number]{
+    width: 20%;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 5px 0;
+    margin-left: 40%;
+    box-shadow: 0px 3px 6px -6px black ;
+    background: linear-gradient(45deg,
+#48ff00,
+#00ffd5
+);
+font-size: 30px;
+}
+.button{
+    width: 05%;
+    padding: 20px 10px;
+    margin-left: 48%;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position:relative;
+    z-index: 0;
+    border-radius: 20px;
+    touch-action: manipulation;
+}
+.button::before{
+    content: "";
+    background: linear-gradient(45deg,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position:0  0;
+  }
+}
+
+.button:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+
+}
+body{
+  background: linear-gradient(45deg,
+    #01e1ff,
+    #2aa1be,
+    #3d8ba7,
+    #4b7992,
+    #39667d,
+    #4b6471,
+    #3b4246,
+    #252728,
+    #080808
+  );
+}
+

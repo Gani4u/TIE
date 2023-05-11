@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(95, 158, 46);
+    align-items: center;
+    background-image: url(https://th.bing.com/th/id/R.4c35571c60d4c5d403aacf4e51105f3e?rik=xwS%2bNGo1Ed2%2bOw&riu=http%3a%2f%2fmedia-cache-ak0.pinimg.com%2f736x%2f19%2f71%2fab%2f1971abbc53cad3a58b813da6f653d11f.jpg&ehk=irIgmXBf5U3tvIpABLqbGrqpULcUaRa9TKqQsehssOg%3d&risl=&pid=ImgRaw&r=0);
+}
+.container{
+    display: flex;
+}
+.card{
+    height: 500px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+img{
+    height:350px;
+    width: 350px;
+    border-radius: 3px;
+    transition:1s;
+}
+.intro{
+    height: 70px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 240px;
+    background-color: rgb(27, 27, 27,.5);
+    color: white;
+    transition: 1s;
+}
+h1{
+    margin: 10px;
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+.card:hover{
+    cursor: pointer;
+}
+.card:hover .intro{
+    height: 220px;
+    bottom: 240px;
+    background: black;
+}
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.card:hover img{
+    transform: scale(1.5) rotate(-1deg);
+}

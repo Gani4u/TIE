@@ -1,0 +1,1 @@
+  <marquee style="z-index:2;position:absolute;left:60;top:17;font-family:Arial;font-size:10pt;color:c4aa40;height:6; font-size: ;"scrollamount="7" direction="rigth">Text... or snow?!</marquee>

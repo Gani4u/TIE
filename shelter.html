@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image slider</title>
+    <style>
+        body{ background-color: white;
+        }
+        h1{
+            font-size: 60PX;
+            background-color: aqua;
+            text-align: center;
+            border-radius: 20PX;
+            font-style: oblique;
+            
+        }
+        .maindiv{
+            width:auto;
+            height: auto;
+            position:static;
+            
+            box-shadow: 3px;
+            background-image: url(/Images/33.jpeg);
+        
+            height: 500px;
+            width: 900px;
+            align-items: center;
+            box-shadow: 3px 3px 10px 5px black;
+            animation:slider 20s infinite linear ;
+            margin-left: 250px;
+            margin-top: 100px;
+        }
+        @keyframes slider{
+          0%{
+            background-image:url(/Images/a5.png);
+          }
+          25%{
+            background-image: url(/Images/a1.jpeg);
+            
+        }
+          50%{
+            background-image: url(/Images/a13.png);
+          }
+            
+
+        50%{
+            background-image: url(/Images/a4.png);
+        }
+        50%{background-image: url(/Images/a10.jpeg);
+        }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>SHELTER PICTURE</h1>
+    <div class="maindiv">
+
+    </div>
+</body>
+</html>
