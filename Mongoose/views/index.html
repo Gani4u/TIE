@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <style>
+        body{
+       margin: 0;
+       padding: 0;
+       background-color: rgb(199, 204, 209);
+       height: 833px;
+
+    }
+.text-center{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 7vmin;
+    font-weight: bold;
+    color: rgb(122, 122, 229);
+    padding: 0 0 10px 50px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background: rgb(38, 38, 39) ;
+    background-size: 3000px;
+    background-blend-mode: darken;
+    height: 10vmin;
+    padding: 30px 0 0 0;
+}
+.form{
+    max-width: 500px;
+    margin: 25px auto;
+}
+.form input{
+    margin: 14px 0;
+    padding: 5px,3px;
+    width: 100%;
+    font-size: 16px;
+    height: 40px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form-input{
+    margin: 14px 0;
+    padding: 5px,3px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn{
+    color: black;
+    border: 2px solid gray;
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 10vmin;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.nav-list li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2vmin;
+    font-weight: bold;
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: rgb(172, 23, 23);
+
+}
+.background{
+    background: rgba(0, 0, 0,0.7) url('/Mongoose/img/home.png') ;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+footer{
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    background-color: #ededec;
+}
+.footer{
+    padding: 40px 0;
+    background-color: white;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+}
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+
+}
+.footer .social a:hover{
+    opacity: 0.5;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer ul li a:hover{
+    opacity: 1;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    color: #aaa;
+}
+    </style>
+    
+
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="/Mongoose/img/logo.jpg" alt="logo"></div>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="/aboutus.html">ABOUT US</a></li>
+            <li><a href="/services.html">SERVICES</a></li>
+            <li><a href="/donate.html">DONATE</a></li>
+            <li><a href="/submit.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+    <h1 class="text-center">Contact Us</h1>
+    <form method="post" action="/">
+    <div class="form">
+    <input  type="text" name="name" id="name" placeholder="Enter Your Name">
+    <input type="text" name="phone" id="num" placeholder="Enter Your Phone Number">
+    <input  type="text" name="email" id="email" placeholder="Enter Your Email ID">
+    <textarea class="form-input" type="text" name="message" id="text" cols="30" rows="10" placeholder="Message"></textarea>
+    <button class="btn">Submit</button>
+    </div>
+    </form>
+    <footer>
+        <section class="footer">
+            <div class="social">
+                <a href="https://www.instagram.com/invites/contact/?i=23fdh7it96ti&utm_content=38eqpv2" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/WSA-We-Save-Animals-1663165890625653/?hc_ref=ARQ7vjLG3HV5adfBbiHtF6yOfhxAc-vHyBR6IC_l3cnIDUFiVYrMWs55MWhjJnGKdKw" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.youtube.com/channel/UCoe7IQVULtg7o59XiWgIBSg" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.google.com/maps/place/We+Save+Animals/@12.791543,77.4917831,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae41bc0304b55b:0x767846db379dcc5a!8m2!3d12.791543!4d77.4917831!16s%2Fg%2F11fjbkj2y0" target="_blank"><i class="fas fa-location-dot"></i></a>
+            </div>
+        <ul class="list">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="/aboutus.html">about</a>
+            </li>
+            <li>
+                <a href="#">donate</a>
+            </li>
+            <li>
+                <a href="#">contact us</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            Golden Boys @2023
+        </p>
+    </section>
+</footer>  
+</body>
+</html>
