@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image slider</title>
+    <style>
+        body{ background-color: white;
+        }
+        h1{
+            font-size: 60PX;
+            background-color: aqua;
+            text-align: center;
+            border-radius: 20PX;
+            font-style: oblique;
+            
+        }
+        .maindiv{
+            width:auto;
+            height: auto;
+            position:static;
+            
+            box-shadow: 3px;
+            background-image: url(/public/Images/33.jpeg);
+        
+            height: 500px;
+            width: 900px;
+            align-items: center;
+            box-shadow: 3px 3px 10px 5px black;
+            animation:slider 20s infinite linear ;
+            margin-left: 250px;
+            margin-top: 100px;
+        }
+        @keyframes slider{
+          0%{
+            background-image:url(/public/Images/a5.png);
+          }
+          25%{
+            background-image: url(/public/Images/a1.jpeg);
+            
+        }
+          50%{
+            background-image: url(/public/Images/a13.png);
+          }
+            
+
+        50%{
+            background-image: url(/public/Images/a4.png);
+        }
+        50%{background-image: url(/public/Images/a10.jpeg);
+        }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>SHELTER PICTURE</h1>
+    <div class="maindiv">
+
+    </div>
+    <footer>
+      <style>
+        footer{
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    background-color: #ededec;
+}
+.footer{
+    padding: 40px 0;
+   background: rgb(255, 255, 255);
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #11477d;
+}
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+
+}
+.footer .social a:hover{
+    opacity: 0.5;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer ul li a:hover{
+    opacity: 1;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    color: #aaa;
+}
+      </style>
+      <section class="footer">
+      <div class="social">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-snapchat"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+      <ul class="list">
+          <li>
+              <a href="/public/home.html">Home</a>
+          </li>
+          <li>
+              <a href="/public/services.html">Services</a>
+          </li>
+          <li>
+              <a href="/public/aboutus.html">about</a>
+          </li>
+          <li>
+              <a href="/public/donate.html">donate</a>
+          </li>
+          <li>
+              <a href="/public/contact.html">contact us</a>
+          </li>
+      </ul>
+      <p class="copyright">
+          Golden Boys @2023
+      </p>
+  </section>
+</footer>
+</body>
+</html>
